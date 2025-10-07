@@ -1,0 +1,50 @@
+* {
+background-color: bisque;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    /* display: 100vh; */
+
+}
+
+h1{
+    background-color: brown;
+    grid-column: 2 / 12;
+}
+
+h2 {
+    background-color: burlywood;
+    grid-column: 2 / 12;
+}
+
+h3 {
+    background-color: aquamarine;
+    grid-column: 2 / 12;
+}
+
+aside {
+    background-color: cadetblue;
+    /* float: left; */
+    width: 12.5%;
+    min-height: 75vh;
+    grid-row: 1 / 20;
+    grid-column: 1;
+}
+
+/* aside ol {
+    background-color: cadetblue;
+}
+
+aside li {
+    background-color: cadetblue;
+    
+} */
+
+.chart {
+    border: 2px solid black;
+    grid-row: 4 / 20;
+    grid-column: 2 / 12;
+}
